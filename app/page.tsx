@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Mail, Plus, Trash2, Loader2, CheckCircle, AlertCircle, ExternalLink, Bell, Sparkles } from 'lucide-react'
+import { Mail, Plus, Trash2, Loader2, CheckCircle, AlertCircle, ExternalLink, Bell, Sparkles, Github } from 'lucide-react'
 
 export default function Home() {
   const [email, setEmail] = useState('')
@@ -243,14 +243,24 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-white/5 py-8 px-6">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-white/40">
-            A <a href="https://whybe.ai" className="text-lime-500 hover:text-lime-400">WHYBE.AI</a> project
-          </p>
-          <p className="text-sm text-white/40">
-            Built with curiosity
-          </p>
+      <footer className="py-12 px-6 border-t border-white/5">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+          <a href="https://whybe.ai" className="text-xl font-black tracking-tighter hover:opacity-80 transition-opacity">
+            WHYBE<span className="text-lime-400">.AI</span>
+          </a>
+          <div className="text-sm text-zinc-600 text-center">
+            A <span className="text-lime-400">WHYBE.AI</span> project • Status: <span className="text-lime-400">Constantly Evolving</span>
+          </div>
+          <div className="flex gap-4">
+            <a
+              href="https://github.com/gordianknot-legacy/careerwatch"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 hover:bg-white/5 rounded-lg transition-colors text-zinc-500 hover:text-white"
+            >
+              <Github size={20} />
+            </a>
+          </div>
         </div>
       </footer>
     </div>
