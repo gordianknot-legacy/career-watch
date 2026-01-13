@@ -253,7 +253,7 @@ export default function Home() {
           </div>
           <div className="flex gap-4">
             <a
-              href="https://github.com/gordianknot-legacy/careerwatch"
+              href="https://github.com/gordianknot-legacy/career-watch"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 hover:bg-white/5 rounded-lg transition-colors text-zinc-500 hover:text-white"
