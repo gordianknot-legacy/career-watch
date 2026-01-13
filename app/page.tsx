@@ -249,7 +249,7 @@ export default function Home() {
             WHYBE<span className="text-lime-400">.AI</span>
           </a>
           <div className="text-sm text-zinc-600 text-center">
-            A <span className="text-lime-400">WHYBE.AI</span> project • Status: <span className="text-lime-400">Constantly Evolving</span>
+            A <span className="text-xl font-black tracking-tighter text-white">WHYBE<span className="text-lime-400">.AI</span></span> project • Status: <span className="text-lime-400">Constantly Evolving</span>
           </div>
           <div className="flex gap-4">
             <a
